@@ -9,6 +9,6 @@ def attach_policy_to_group(group_name, policy_arn):
     print(response)
     
 if __name__ == '__main__':
-    policy_arn = "arn:aws:iam::339712849641:policy/s3_list_bucket"
+    policy_arn = "arn:aws:iam::637423571897:policy/s3_list_bucket"
     attach_policy_to_group('test-group', policy_arn)
       
