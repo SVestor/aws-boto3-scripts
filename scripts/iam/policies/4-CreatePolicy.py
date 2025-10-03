@@ -16,4 +16,4 @@ def create_policy(policy_name, policy_document_path):
 
 
 if __name__ == '__main__':
-    create_policy('s3_list_bucket', './policies/s3_list_bucket.json')
+    create_policy('s3_list_bucket_policy', './policies/s3_list_bucket.json')
