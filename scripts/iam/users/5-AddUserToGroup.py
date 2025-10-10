@@ -9,5 +9,5 @@ def add_user_to_group(user_name, group_name):
     print(response)
     
 if __name__ == '__main__':
-    add_user_to_group('test-user5', 'test-group')
+    add_user_to_group('test-user1', 'test-group')
       
