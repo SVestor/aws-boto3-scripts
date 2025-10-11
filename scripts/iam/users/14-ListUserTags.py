@@ -9,4 +9,4 @@ def list_user_tags(user_name):
         print(f"{tag['Key']}: {tag['Value']}")
     
 if __name__ == '__main__':
-    list_user_tags('test-user5')
+    list_user_tags('test-user')
