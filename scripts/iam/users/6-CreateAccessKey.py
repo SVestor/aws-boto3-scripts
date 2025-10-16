@@ -6,5 +6,5 @@ def create_access_key(user_name):
     print(response)
     
 if __name__ == '__main__':
-    create_access_key('test-user5')
+    create_access_key('test-user')
       
