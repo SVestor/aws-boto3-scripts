@@ -6,5 +6,5 @@ def delete_user(user_name):
     print(response)
     
 if __name__ == '__main__':
-    delete_user('test-user5')
+    delete_user('test-user')
       
