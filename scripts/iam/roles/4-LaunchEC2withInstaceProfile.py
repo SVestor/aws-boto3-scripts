@@ -14,7 +14,7 @@ def launch_ec2_with_instance_profile(image_id, instance_type, key_name, security
         }
     )
     instance_id = instance[0].id
-    print(f"Instance: {instance_id} launched with instance profile: {instance_profile_name}")
+    print(f"Instance: {instance_id} launched with a custom instance profile: {instance_profile_name}")
     
 if __name__ == '__main__':
     launch_ec2_with_instance_profile(
