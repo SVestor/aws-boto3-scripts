@@ -10,4 +10,4 @@ def create_login_profile(user_name, password):
     print(response)
     
 if __name__ == '__main__':
-    create_login_profile('test-user5', 'Test123!')
+    create_login_profile('test-user', 'Test123!')
