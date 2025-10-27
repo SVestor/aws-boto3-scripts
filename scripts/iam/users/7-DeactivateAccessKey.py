@@ -10,4 +10,4 @@ def deactivate_access_key(user_name, access_key_id):
     print(response)
     
 if __name__ == '__main__':
-    deactivate_access_key('test-user5', 'AKIAZI2LH2O4VNTWDMXZ')
+    deactivate_access_key('test-user', 'AKIAZI2LH2O4VNTWDMXZ')
