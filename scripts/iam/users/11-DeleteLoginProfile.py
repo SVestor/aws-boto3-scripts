@@ -6,5 +6,5 @@ def delete_login_profile(user_name):
     print(response)
     
 if __name__ == '__main__':
-    delete_login_profile('test-user5')
+    delete_login_profile('test-user')
       
