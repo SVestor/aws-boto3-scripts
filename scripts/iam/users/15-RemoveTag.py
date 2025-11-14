@@ -15,3 +15,6 @@ def remove_tag_from_user(user_name, tag_key):
 if __name__ == '__main__':
     remove_tag_from_user('test-user', 'Department')
     remove_tag_from_user('test-user', 'Project')
+    remove_tag_from_user('test-user', 'Environment')
+    remove_tag_from_user('test-user', 'CostCenter')
+    
