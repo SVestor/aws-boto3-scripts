@@ -17,4 +17,6 @@ if __name__ == '__main__':
     remove_tag_from_user('test-user', 'Project')
     remove_tag_from_user('test-user', 'Environment')
     remove_tag_from_user('test-user', 'CostCenter')
+    remove_tag_from_user('test-user', 'Owner')
+    remove_tag_from_user('test-user', 'Project')
     
