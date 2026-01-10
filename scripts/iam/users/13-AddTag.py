@@ -23,4 +23,4 @@ if __name__ == '__main__':
     add_tag_to_user('test-user', 'Owner', 'John Doe')
     add_tag_to_user('test-user', 'Project', 'Test')
     add_tag_to_user('test-user', 'Application', 'Crypto Orderbook Bot')
-    add_tag_to_user('test-user', 'Version', '2.4.1')
+    add_tag_to_user('test-user', 'Version', '2.4.2')
