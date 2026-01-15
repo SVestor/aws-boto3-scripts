@@ -10,5 +10,5 @@ def detach_policy_from_group(group_name, policy_arn):
     
 if __name__ == '__main__':
     policy_arn = "arn:aws:iam::637423571897:policy/s3_list_bucket"
-    detach_policy_from_group('test-group', policy_arn)
+    detach_policy_from_group('test-s3-group', policy_arn)
       
