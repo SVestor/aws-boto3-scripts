@@ -29,6 +29,6 @@ def create_policy(policy_name, policy_document_path, start_time, end_time):
 
 if __name__ == '__main__':
     current_time = datetime.now(timezone.utc).strftime('%Y-%m-%d')
-    start_time = f"{current_time}T16:00:00Z"
+    start_time = f"{current_time}T18:00:00Z"
     end_time = f"{current_time}T21:00:00Z"
     create_policy('s3_get_object', './policies/s3_get_object.json', start_time, end_time)
