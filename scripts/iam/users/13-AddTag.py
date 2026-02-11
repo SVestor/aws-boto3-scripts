@@ -17,7 +17,6 @@ def add_tag_to_user(user_name, tag_key, tag_value):
 
 if __name__ == '__main__':
     add_tag_to_user('test-user', 'Department', 'IT')
-    add_tag_to_user('test-user', 'Project', 'Test')
     add_tag_to_user('test-user', 'Environment', 'Production')
     add_tag_to_user('test-user', 'CostCenter', 'IT')
     add_tag_to_user('test-user', 'Owner', 'John Doe')
